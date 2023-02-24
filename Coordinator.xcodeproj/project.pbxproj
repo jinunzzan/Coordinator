@@ -16,6 +16,13 @@
 		598F964F29A88BAA00C795A8 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F964E29A88BAA00C795A8 /* CoordinatorTests.swift */; };
 		598F965929A88BAA00C795A8 /* CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F965829A88BAA00C795A8 /* CoordinatorUITests.swift */; };
 		598F965B29A88BAA00C795A8 /* CoordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F965A29A88BAA00C795A8 /* CoordinatorUITestsLaunchTests.swift */; };
+		598F966829A88F0800C795A8 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966729A88F0800C795A8 /* BuyCoordinator.swift */; };
+		598F966F29A88F1100C795A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966929A88F1100C795A8 /* SceneDelegate.swift */; };
+		598F967029A88F1100C795A8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966A29A88F1100C795A8 /* MainCoordinator.swift */; };
+		598F967129A88F1100C795A8 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966B29A88F1100C795A8 /* Storyboarded.swift */; };
+		598F967229A88F1100C795A8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966C29A88F1100C795A8 /* Coordinator.swift */; };
+		598F967329A88F1100C795A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966D29A88F1100C795A8 /* ViewController.swift */; };
+		598F967429A88F1100C795A8 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F966E29A88F1100C795A8 /* BuyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		598F965429A88BAA00C795A8 /* CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		598F965829A88BAA00C795A8 /* CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUITests.swift; sourceTree = "<group>"; };
 		598F965A29A88BAA00C795A8 /* CoordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		598F966729A88F0800C795A8 /* BuyCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
+		598F966929A88F1100C795A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../../../Downloads/0cadc9099c8b04ec2ea136fb554934bf-80d1b775a5e5fbb6e4ee2790829b39eb4074a9fa/SceneDelegate.swift"; sourceTree = "<group>"; };
+		598F966A29A88F1100C795A8 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		598F966B29A88F1100C795A8 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		598F966C29A88F1100C795A8 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		598F966D29A88F1100C795A8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Downloads/0cadc9099c8b04ec2ea136fb554934bf-80d1b775a5e5fbb6e4ee2790829b39eb4074a9fa/ViewController.swift"; sourceTree = "<group>"; };
+		598F966E29A88F1100C795A8 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				598F963729A88BA900C795A8 /* AppDelegate.swift */,
+				598F966E29A88F1100C795A8 /* BuyViewController.swift */,
+				598F966C29A88F1100C795A8 /* Coordinator.swift */,
+				598F966A29A88F1100C795A8 /* MainCoordinator.swift */,
 				598F963929A88BA900C795A8 /* SceneDelegate.swift */,
+				598F966B29A88F1100C795A8 /* Storyboarded.swift */,
 				598F963B29A88BA900C795A8 /* ViewController.swift */,
+				598F966729A88F0800C795A8 /* BuyCoordinator.swift */,
+				598F966929A88F1100C795A8 /* SceneDelegate.swift */,
+				598F966D29A88F1100C795A8 /* ViewController.swift */,
 				598F963D29A88BA900C795A8 /* Main.storyboard */,
 				598F964029A88BAA00C795A8 /* Assets.xcassets */,
 				598F964229A88BAA00C795A8 /* LaunchScreen.storyboard */,
@@ -258,9 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598F967229A88F1100C795A8 /* Coordinator.swift in Sources */,
+				598F967429A88F1100C795A8 /* BuyViewController.swift in Sources */,
+				598F966F29A88F1100C795A8 /* SceneDelegate.swift in Sources */,
+				598F967029A88F1100C795A8 /* MainCoordinator.swift in Sources */,
+				598F967329A88F1100C795A8 /* ViewController.swift in Sources */,
 				598F963C29A88BA900C795A8 /* ViewController.swift in Sources */,
 				598F963829A88BA900C795A8 /* AppDelegate.swift in Sources */,
 				598F963A29A88BA900C795A8 /* SceneDelegate.swift in Sources */,
+				598F966829A88F0800C795A8 /* BuyCoordinator.swift in Sources */,
+				598F967129A88F1100C795A8 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
